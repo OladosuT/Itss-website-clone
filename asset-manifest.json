@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Itss-website-clone/static/css/main.2f1d9334.css",
+    "main.js": "/Itss-website-clone/static/js/main.3ba88fd6.js",
+    "static/media/Testimonial_BG.png": "/Itss-website-clone/static/media/Testimonial_BG.876df547d410dfb7e126.png",
+    "static/media/Products_and_Solution_BG.png": "/Itss-website-clone/static/media/Products_and_Solution_BG.155f54c7bb2960bc380e.png",
+    "static/media/Banner_BG.png": "/Itss-website-clone/static/media/Banner_BG.215513f54fe4ff2b65af.png",
+    "static/media/News_Banner_BG.png": "/Itss-website-clone/static/media/News_Banner_BG.33c22507242aafa70c5f.png",
+    "static/media/About_Us_Banner_BG.png": "/Itss-website-clone/static/media/About_Us_Banner_BG.c8197fc566bf71eb618c.png",
+    "static/media/Reference_Banner_BG.png": "/Itss-website-clone/static/media/Reference_Banner_BG.398417fac7a66f08b455.png",
+    "static/media/Partners_Banner_BG.png": "/Itss-website-clone/static/media/Partners_Banner_BG.713fda2db43e5d8de575.png",
+    "static/media/Group_3009.png": "/Itss-website-clone/static/media/Group_3009.2ead0810aab34d4e4c4c.png",
+    "static/media/ITSS_Logo_vector.png": "/Itss-website-clone/static/media/ITSS_Logo_vector.22227af1eec8f0320211.png",
+    "static/media/slick.svg": "/Itss-website-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Itss-website-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Itss-website-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Itss-website-clone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Itss-website-clone/index.html",
+    "main.2f1d9334.css.map": "/Itss-website-clone/static/css/main.2f1d9334.css.map",
+    "main.3ba88fd6.js.map": "/Itss-website-clone/static/js/main.3ba88fd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f1d9334.css",
+    "static/js/main.3ba88fd6.js"
+  ]
+}
