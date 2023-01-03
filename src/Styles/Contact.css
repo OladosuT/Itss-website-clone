@@ -1,0 +1,582 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* HERO */
+
+.contact_hero {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  /* background-color: rgba(0, 90, 255, 0.444); */
+}
+
+.contact_hero::before {
+  content: "";
+  position: absolute;
+  background: url("../../public/images/Contact_Us/Group_3009.png") no-repeat
+    center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.contact_hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  color: #fff;
+}
+
+.container h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.container p {
+  width: 800px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* GET IN TOUCH */
+
+.form {
+  margin: 2rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+
+}
+
+.form .header h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3rem;
+  color: #0097FF;
+}
+
+.box-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+form {
+  padding: 1.1rem 3rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+  height: 100%;
+  border: 1px solid #707070;
+}
+
+.form_control input {
+  width: 500px;
+  height: 70px;
+  padding: 15px;
+  margin: 0.6rem;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  outline: none;
+  font-size: 20px;
+  color: #B6B3B3;
+}
+
+.btn_form {
+  margin: 0.5rem;
+  height: 50px;
+  width: 231px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background: #0097FF;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+textarea {
+  margin: 0.6rem;
+  width: 500px;
+  height: 200px;
+  resize: none;
+  font-size: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  outline: none;
+  color: #B6B3B3;
+}
+
+.address {
+  width: 100%;
+  background: rgb(31, 55, 148);
+  height: 100%;
+}
+
+.card_contact {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  color: #fff;
+}
+
+.card_contact img {
+  height: 50px;
+  width: 50px;
+  margin: 1rem 2rem;
+}
+
+.card_text {
+  width: 300px;
+}
+
+.card_text h3 {
+  margin: 0.5rem 0;
+}
+
+.card_text p {
+  letter-spacing: 1px;
+  font-size: 17px;
+
+}
+
+.social {
+  border-top: 2px solid rgb(82, 101, 173);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 2rem 3rem;
+  padding-top: 3rem;
+}
+
+.social p {
+  font-size: 20px;
+  margin: 0 0.5rem;
+}
+
+.social_icon img {
+  height: 30px;
+  width: 30px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+/* LOCATION */
+.location {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location .header h1 {
+  color: #0097FF;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  font-size: 40px;
+}
+
+.location .map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  height: 671px;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+/* slider */
+
+.our_offices {
+  width: 100%;
+  height: 100vh;
+  background: transparent linear-gradient(304deg, #132056 0%, #0097FF 100%) 0% 0%;
+}
+
+.our_offices .offices_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f8f8f8;
+}
+
+.offices_header h1 {
+  margin-top : 3rem;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+
+.offices_header p {
+  margin: 1rem;
+  font-weight: 400;
+  font-size: 20px;
+  width: 950px;
+  text-align: left;
+}
+
+.offices_slider {
+  margin-top: 1rem;
+  height: 310px;
+}
+
+.office {
+  transform: scale(.95);
+  transition: transform 300ms;
+  opacity: 0.5;
+  outline: none;
+}
+
+.office img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.active_office_slide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* .showoffice {
+  background: #fff;
+  padding: 18px;
+  height: 350px;
+} */
+
+.office_body {
+  text-align: center;
+  background: #fff;
+}
+
+.office_body h2 {
+  margin-bottom: .5rem;
+  color: rgb(31, 55, 148);
+  padding: 10px;
+}
+
+.arrowclient {
+  border: 1px solid #fff;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  color: #fff;
+}
+
+.arrowclient svg {
+  width: 25px;
+}
+
+.nextclient {
+  right: 32%;
+  top: 89%;
+}
+
+.prevclient {
+  left: 32%;
+  top: 89%;
+}
+
+@media (max-width: 1024px) {
+  .container h1 {
+    font-size: 55px;
+  }
+
+
+  .box-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  form {
+    padding: 0 1rem;
+  }
+
+
+  
+  .form_control input {
+    width: 350px;
+    height: 60px;
+  }
+
+  textarea {
+    width: 350px;
+    height: 200px;
+  }
+
+  .card_contact {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    color: #fff;
+  }
+  
+  .card_text p {
+    letter-spacing: 1px;
+    font-size: 16px;
+  
+  }
+
+  
+
+  .location .map {
+    width: 900px;
+  }
+  
+}
+
+@media (max-width: 940px) {
+  
+  .container h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .form .header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    color: #0097FF;
+  }
+  
+  .form_control input {
+    width: 300px;
+    height: 60px;
+  }
+
+  .form {
+    height: 50vh;
+  }
+
+  form {
+    padding: 1.1rem .03rem;
+
+  }
+
+  textarea {
+    width: 300px;
+    height: 200px;
+  }
+
+  
+  .card_contact img {
+    height: 50px;
+    width: 50px;
+    margin: 1rem .5rem;
+  }
+
+  .card_contact {
+    margin: 1rem .03rem;
+  }
+  
+  .card_text p {
+    letter-spacing: 1px;
+    font-size: 16px;
+    width: 250px;
+    font-weight: 300;
+  }
+
+  .social p {
+    font-weight: 300;
+  }
+
+  .location {
+    height: 50vh;
+    margin-bottom: .5rem;;
+  }
+
+  .location .header h1 {
+    color: #0097FF;
+    font-weight: 600;
+    margin: .5rem 0;
+    font-size: 40px;
+  }
+
+  .location .map {
+    width: 650px;
+  }
+
+  .our_offices {
+    height: 60vh;
+  }
+
+  .offices_header p {
+    font-size: 17px;
+    width: 750px;
+  }
+
+  .office img {
+    height: 300px;
+  }
+
+  .nextclient {
+    right: 22%;
+    margin-top: 1rem;
+    }
+  
+  .prevclient {
+    left: 22%;
+    margin-top: 1rem;
+    }
+  
+
+}
+
+
+@media (max-width: 600px) {
+  
+  .container h1 {
+    font-size: 40px;
+  }
+  .container h3 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1rem 0;
+    line-height: 1.2;
+  }
+
+  .form .header h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #0097FF;
+  }
+
+  .box-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  
+  .form_control input {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .form {
+    height: 100vh;
+  }
+
+  form {
+    padding: .5rem;
+    border-radius: 10px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 150px;
+    font-size: 16px;
+    padding: .5rem;
+  }
+
+  .btn_form {
+    margin: 0.3rem;
+    height: 45px;
+    width: 90%;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  
+  .card_contact img {
+    height: 40px;
+    width: 40px;
+    margin: 1rem 1rem;
+  }
+
+  .card_contact {
+    margin: 1rem .03rem;
+  }
+  
+  .card_text p {
+    letter-spacing: 1px;
+    font-size: 16px;
+    width: 250px;
+    font-weight: 300;
+  }
+
+  .social {
+    padding-top: .8rem;
+  }
+
+  .social p {
+    font-weight: 300;
+  }
+
+  .location {
+    height: 50vh;
+    margin-bottom: .5rem;;
+  }
+
+  .location .header h1 {
+    font-size: 30px;
+  }
+
+  .location .map {
+    width: 350px;
+  }
+
+  .location .map img {
+    object-fit: cover;
+  }
+
+  .our_offices {
+    height: 70vh;
+  }
+
+  .offices_header h1 {
+    margin-top : 1rem;
+    font-size: 30px;
+  }
+
+  .offices_header p {
+    font-size: 17px;
+    width: 350px;
+  }
+
+  .office img {
+    height: 200px;
+  }
+
+  .nextclient {
+    top: 99%;
+    
+    }
+  
+  .prevclient {
+    top: 99%;
+    }
+  
+
+}

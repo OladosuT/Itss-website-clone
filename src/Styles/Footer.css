@@ -1,0 +1,215 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #F4F6F6 0% 0%;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+.footer_info img {
+    width: 150px;
+    height: 100%
+}
+
+.footer_info p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer_form input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #707070;
+    background: #fff;
+    font-weight: bold;
+    padding: 0 .5rem
+}
+
+.footer_info button {
+    width: 100%;
+    height: 35px;
+    margin-top: .45rem;
+    border: none;
+    outline: none;
+    background: #0097FF;
+    color: #fff;
+    letter-spacing: 1px;;
+}
+
+.ITSS_link, .company, .legal, .footer_socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ITSS_link h4, .company h4, .legal h4 {
+    border-bottom: 2px solid #0097FF;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #141414;
+}
+
+.ITSS_link ul, .company ul, .legal ul {
+    list-style-image: url("../assets/Footer/Bullet_Point.png");
+}
+
+.ITSS_link li, .company li, .legal li {
+    margin: .5rem;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer_socials h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.footer_socials .social_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social_img img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5rem auto;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.two .policy {
+    color: #0097FF;
+}
+
+
+@media (max-width: 1024px) {
+    .two {
+        width: 100%;
+        padding: 0 3rem;
+    }
+    .footer_socials h4 {
+        letter-spacing: 1px;
+    }
+    
+    .footer_socials .social_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .social_img img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin: 0 .5rem;
+
+    }
+
+    .ITSS_link h4, .company h4, .legal h4, .footer_socials h4 {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    .ITSS_link li, .company li, .legal li, .footer_info p {
+        font-size: 10px;
+    }
+
+    
+    .footer_info img {
+        width: 150px;
+        height: 100%
+    }
+}
+
+@media (max-width: 600px) {
+.one {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_info {
+    width: 320px;
+}
+
+.footer_info img {
+    margin: 0 3rem;
+}
+
+.footer_info img {
+    width: 250px;
+    height: 100%
+}
+
+.footer_info p {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.footer_form input {
+    height: 45px;
+}
+
+.footer_info button {
+    height: 45px;
+}
+
+.ITSS_link, .company, .legal {
+    display: none;
+}
+
+.two {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.two p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_socials h4 {
+    display: none;
+}
+
+.social_img img {
+    width: 30px;
+    height: 30px;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+}
